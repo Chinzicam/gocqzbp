@@ -3,25 +3,25 @@ module github.com/FloatTech/gocqzbp
 go 1.19
 
 require (
-	github.com/FloatTech/ZeroBot-Plugin v1.6.0-beta3
-	github.com/FloatTech/floatbox v0.0.0-20221203040505-d7352e564906
-	github.com/FloatTech/zbputils v1.6.1-0.20221203040741-3bc28d5e3cd1
+	github.com/FloatTech/ZeroBot-Plugin v1.6.1-beta3
+	github.com/FloatTech/floatbox v0.0.0-20221223151526-b0b2b1101f78
+	github.com/FloatTech/zbputils v1.6.1-0.20221226052231-8e1c946d55c2
 	github.com/Mrs4s/go-cqhttp v1.0.0-rc3
 	github.com/sirupsen/logrus v1.9.0
 	github.com/tidwall/gjson v1.14.4
-	github.com/wdvxdr1123/ZeroBot v1.6.5
+	github.com/wdvxdr1123/ZeroBot v1.6.6
 )
 
 require (
 	github.com/Baidu-AIP/golang-sdk v1.1.1 // indirect
 	github.com/Coloured-glaze/gg v1.3.4 // indirect
-	github.com/FloatTech/AnimeAPI v1.6.1-0.20221203040820-0dda47e61cd8 // indirect
+	github.com/FloatTech/AnimeAPI v1.6.1-0.20221226052349-99c1398c6713 // indirect
 	github.com/FloatTech/rendercard v0.0.2-0.20221128165614-a41216d2422e // indirect
 	github.com/FloatTech/sqlite v1.5.7 // indirect
 	github.com/FloatTech/ttl v0.0.0-20220715042055-15612be72f5b // indirect
-	github.com/FloatTech/zbpctrl v1.5.3-0.20221203040611-11f118e1d5ec // indirect
+	github.com/FloatTech/zbpctrl v1.5.3-0.20221210051848-740ab7bd6ec3 // indirect
 	github.com/Microsoft/go-winio v0.6.0 // indirect
-	github.com/Mrs4s/MiraiGo v0.0.0-20221201090748-23f637d2954e // indirect
+	github.com/Mrs4s/MiraiGo v0.0.0-20221202060717-4658474c60dd // indirect
 	github.com/RomiChan/protobuf v0.0.0-20220624030127-3310cba9dbc0 // indirect
 	github.com/RomiChan/syncx v0.0.0-20221202055724-5f842c53020e // indirect
 	github.com/RomiChan/websocket v1.4.3-0.20220227141055-9b2c6168c9c5 // indirect
@@ -46,7 +46,7 @@ require (
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
-	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
+	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/pprof v0.0.0-20210407192527-94a9f03dee38 // indirect
@@ -60,7 +60,7 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible // indirect
 	github.com/lestrrat-go/strftime v1.0.6 // indirect
-	github.com/lucas-clemente/quic-go v0.31.0 // indirect
+	github.com/lucas-clemente/quic-go v0.31.1 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/marten-seemann/qpack v0.3.0 // indirect
 	github.com/marten-seemann/qtls-go1-18 v0.1.3 // indirect
@@ -106,7 +106,7 @@ require (
 	modernc.org/sqlite v1.20.0 // indirect
 )
 
-replace github.com/Mrs4s/go-cqhttp => github.com/FloatTech/gocq v0.0.0-20221203042004-fb6292a7ef31
+replace github.com/Mrs4s/go-cqhttp => github.com/FloatTech/gocq v0.0.0-20221214085446-e283eb0b4d06
 
 replace modernc.org/sqlite => github.com/fumiama/sqlite3 v1.20.0-with-win386
 
