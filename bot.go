@@ -194,7 +194,7 @@ var (
 
 func init() {
 	// 默认昵称
-	adana = flag.String("n", "橙酱", "Set default nickname.")
+	adana = flag.String("n", "橙橙", "Set default nickname.")
 	prefix = flag.String("p", "/", "Set command prefix.")
 	late := flag.Uint("l", 233, "Response latency (ms).")
 	rsz := flag.Uint("r", 4096, "Receiving buffer ring size.")
